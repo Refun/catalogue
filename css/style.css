@@ -1,0 +1,199 @@
+/*@font-face {
+    font-family: 'Yale';
+    src: url('../font/Yale_typeface/YaleNew-Bold.html') format("truetype"),
+        local('abc');
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700');
+
+textarea {
+    -webkit-appearance: none;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+button {
+    -webkit-appearance: none;
+}
+
+a {
+    -webkit-appearance: none;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+:root {
+    --main-color: #ed4040!important;
+    --secondary-color: #208eda !important;
+}
+
+:root {
+    --text-color-pink: #ff79b0;
+    --text-color-lpink: #ffeaf4;
+    --font-size12: 12px;
+    --font-size13: 13px;
+    --font-size14: 14px;
+}
+
+.f-12{
+    font-size: var(--font-size12);
+}
+.f-13{
+    font-size: var(--font-size13);
+}
+.f-14{
+    font-size: var(--font-size14);
+}
+.text-pink{
+    color: var(--text-color-pink);
+}
+.b-pink{
+    background: var(--text-color-pink);
+}
+.b-lpink{
+    background: var(--text-color-pink);
+}
+.text-lpink{
+    color: var(--text-color-lpink);
+}
+.badge-pink{
+    background: var(--text-color-lpink);
+}
+.card-title{
+   font-size: 15px;
+}
+.card-subtitle{
+   font-size: 14px;
+}
+.f-13{
+    font-size: 13px;
+}
+.wh22{
+    width: 22px;
+    height: 22px;
+}
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: -31px;
+  padding: 1rem 0;
+  list-style-type: none;
+  position: relative;
+  z-index: 99;
+
+}
+.slick-dots li {
+  margin: 0 .2rem;
+}
+.slick-dots button {
+  display: block;
+  width: 10px!important;
+  height: 10px!important;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+   background-color: #232323!important;
+  text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+  background-color: #ffffff!important;
+}
+
+.slick-dots button {
+  display: block;
+  width: 7px!important;
+  height: 7px!important;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+   background-color: #ff79b0!important;
+  text-indent: -9999px;
+}
+
+.category img{
+    width: 345px; 
+    height: 160px;
+}
+
+.row-flex {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+/*form*/
+
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #ff79b0;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  /* background: #ffffff none repeat scroll 0 0; */
+  /* border-radius: 2px; */
+  /* margin: 10px auto 30px; */
+  /* max-width: 100%; */
+ /* height: 100%;
+  padding: 50px 70px 70px 71px;*/
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #ff79b0 none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
