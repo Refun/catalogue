@@ -5,7 +5,9 @@
 }
 */
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700');
-
+html {
+  scroll-behavior: smooth;
+}
 textarea {
     -webkit-appearance: none;
 }
@@ -129,7 +131,7 @@ body {
 }
 
 .category img{
-    width: 345px; 
+    width: 100%;
     height: 160px;
 }
 
