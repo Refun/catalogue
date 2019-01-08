@@ -39,10 +39,14 @@ body {
 
 :root {
     --text-color-pink: #ff79b0;
+    --text-color-dpink: #eb1e72;
     --text-color-lpink: #ffeaf4;
     --font-size12: 12px;
     --font-size13: 13px;
     --font-size14: 14px;
+}
+.b-shadow{
+        box-shadow: 1px 2px 3px #80808059;
 }
 
 .f-12{
@@ -63,9 +67,15 @@ body {
 .b-lpink{
     background: var(--text-color-pink);
 }
+.b-dpink{
+     background: #e2045f;
+}
 .text-lpink{
     color: var(--text-color-lpink);
 }
+ a.text-pink {
+     color: var(--text-color-pink);
+ }
 .badge-pink{
     background: var(--text-color-lpink);
 }
@@ -74,6 +84,9 @@ body {
 }
 .card-subtitle{
    font-size: 14px;
+}
+.btn-warning{
+    background-color: var(--text-color-pink);
 }
 .f-13{
     font-size: 13px;
