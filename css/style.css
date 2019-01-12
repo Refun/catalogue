@@ -71,7 +71,7 @@ body {
     background: var(--text-color-pink);
 }
 .b-dpink{
-     background: #e2045f;
+     background: var(--text-color-pink);
 }
 .text-lpink{
     color: var(--text-color-lpink);
