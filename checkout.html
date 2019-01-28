@@ -53,7 +53,7 @@ input[type=text]:focus {
       box-shadow: 0px 0px 4px 6px #f2f2f238;
 }
 
-#add_form2, #add_form3{
+#add_form2, #add_form3, #add_form4{
   display: none;
 }
 
@@ -207,7 +207,44 @@ input[type=text]:focus {
                
                 </div>
                 <div class="text-center mt-3 mx-auto">
-              <a href="checkout.html" id="add3" class="text-white b-dpink pt-3 pb-3 pl-4 pr-4 rounded f-12 "><i class="fas fa-arrow-right mr-2"></i>ADD ANOTHER BUYER</a>
+              <button href="checkout.html" id="add3" class="text-white b-dpink pt-3 pb-3 pl-4 pr-4 rounded f-12 "><i class="fas fa-arrow-right mr-2"></i>ADD ANOTHER BUYER</button>
+               </div>
+            </div>
+        </div>
+</section>   
+
+
+<section class="methods pt-3" id="add_form4">
+        <div class="container-fluid pl-3 pr-3 pb-2">
+            <div class="row">
+                <div class="col-md-12 border-bottom-0 b2-shadow">
+                    <div class="bg-light text-center pb-1">
+                       <h5 class="card-title pt-2">Buyer Four</h5>
+                    </div>
+             <div class="form-group">
+               <input placeholder="CUSTOMER NAME" class="w-100" type="text" value=""/>
+              </div>
+              
+                 <div class="form-group">
+               <input placeholder="PHONE" type="text"  class="w-100" value=""/>
+              </div>
+
+                <div class="form-group">
+               <input placeholder="ADDRESS" type="text"  class="w-100" value=""/>
+              </div>
+              <div class="form-group d-flex">
+                <div class="col-md-6 pr-4">
+                     <input placeholder="PRICE"  class="w-100" type="text" value=""/>
+                 </div>
+                 <div class="col-md-6 pl-4">
+                     <input placeholder="QUANTITY"  class="w-100" type="text" value=""/>
+                 </div>
+                 
+              </div>
+               
+                </div>
+                <div class="text-center mt-3 mx-auto">
+              <button href="checkout.html" id="add4" class="text-white b-dpink pt-3 pb-3 pl-4 pr-4 rounded f-12 "><i class="fas fa-arrow-right mr-2"></i>ADD ANOTHER BUYER</button>
                </div>
             </div>
         </div>
@@ -247,7 +284,12 @@ input[type=text]:focus {
     $('#add2').click(function(){
      $('#add_form3').show();
      $(this).hide();
-  })
+    });
+
+      $('#add3').click(function(){
+     $('#add_form4').show();
+     $(this).hide();
+  });
 </script>
 </body>
 
